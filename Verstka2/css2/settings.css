@@ -1,0 +1,142 @@
+.web{
+	margin-top: 140px;
+}
+
+h1{
+	color: #123
+}
+
+
+.settings{
+	padding-top: 50px
+}
+
+.settings__list{
+	margin-top: 70px;
+	margin-left: 40%
+}
+
+.settings__list a{
+	color: black;
+	width: 100%
+}
+.settings__list__item{
+	background: #FFFFFF;
+	border-radius: 7px;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.settings__list__item:not(:first-child){
+	margin-top: 20px
+}
+
+.settings__list__item > a.active{
+    background-color: blue
+}
+.settings__list a{
+	padding: 15px 25px;
+}
+
+hr{
+	background-color: white;
+	height: 2px;
+	margin-top: 10px;
+	width: 200px
+}
+
+.settings__title__list{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer{
+	background-image: url(footer-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 40px
+}
+.footer__wrapper{
+	}
+.footer__body{
+	padding-top: 80px;
+	padding-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer__about{
+	max-width: 350px
+}
+.footer__about__title{
+	font-family: Playfair Display;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;	
+}
+.footer__about__text{
+	margin-top: 40px;
+	font-family: PT Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.footer__category{
+	margin-left: 30px
+}
+.footer__category__list{
+	max-width: 350px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.fcl__item{
+	max-width: 164px;
+	height: 41px;
+	background: #0F0F0F;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.fcl__item:not(.fcl__last){
+   margin-right: 30px;
+}
+.fcl__item a{
+	padding: 10px 20px;
+	font-size: 12px
+}
+
+.footer__contacts{
+	width: 380px
+}
+
+.footer__contacts__input{
+	width: 210px;
+	height: 42px;
+	text-align: left;
+	opacity: 0.3;
+	margin-top: 37px;
+}
+
+.ff__link{
+ background: #0F0F0F;
+ width: 140px;
+ padding: 10px 20px;
+ height: 41px
+
+
+}
+
+@media(max-width: 900px){
+       .settings__list{
+       	margin-left: 23vw
+       } 
+}

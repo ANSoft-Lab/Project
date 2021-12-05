@@ -1,0 +1,489 @@
+.top-block__bg{
+position: absolute;
+width: 100%;
+height: 830px;
+top: 17px;
+left:0;
+}
+
+
+.top-block__body{
+	z-index: 2;
+	padding: 160px 0 153px;
+	position: relative; 
+}
+
+
+.top-block__container{
+	margin-top: 124px
+}
+
+.top-block__title{
+    border: 4px solid #FFFFFF;
+    max-width: 340px;
+    margin: 0px auto
+}
+.top-block__title__body{
+     padding: 114px 37px 
+}
+h1{
+	font-family: Post No Bills Jaffna;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 76px;
+letter-spacing: 0em;
+text-align: center;
+border-bottom: 2px solid #FFFFFF;
+padding-bottom: 
+}
+
+.top-block__subtitle{
+	font-family: PT Sans;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 13px
+font-size:22px;
+}
+
+.top-block__text{
+	font-family: PT Sans;
+font-size: calc(16px + 3 * (100vw / 1142));
+font-weight: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+max-width: 730px;
+margin: 0px auto;
+margin-top: 80px
+
+}
+
+.main-block__container{
+	max-width: 1618px;
+	padding: 0 15px;
+	margin: 0px auto;
+	
+}
+
+.main-block__wrapper{
+	display: flex;
+}
+.main-block__body{
+	padding: 93px 0 10px 0;
+}
+
+.main-block__season{
+	width: 50vw
+}
+
+.main-block__season__title{
+	margin-left: 13vw;
+
+}
+
+.main-block__season__title p{
+	font-family: Playfair Display;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0em;
+
+}
+.main-block__season__title hr{
+	background-color: white;
+	height: 1px;
+	margin-top: 50px;
+	width: 120px;
+	margin-left: 56px;
+
+}
+
+.products{
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.products__item{
+	width: 260px;
+}
+
+.products__item:not(:last-child){
+	margin-right: 2.5vw
+}
+
+
+ .product__img{
+ 	padding: 55px 22px 56px 23px;
+ 	background-color: #191B1C;
+ 	
+ }
+
+
+ .product__name{
+ 	font-family: Playfair Display;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 25px;
+ }
+
+ .product__price{
+ 	font-family: Playfair Display;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 10px
+ }
+
+ .main-block__collection{
+ 	width: 41vw
+ }
+
+.main-block__collection__bg{
+position: absolute;
+width: 46vw;
+height: 830px;
+margin-top: 7px;
+margin-left:0;
+left:54vw;
+top:840px;
+object-fit: cover;
+}
+
+.collection{
+    margin-top: 180px
+}
+
+.collection__wrapper{
+  display: flex;
+
+}
+
+.collection__content{
+   margin-left: 15vw;
+   margin-top: 100px
+}
+
+.collection__body{
+
+}
+.collection__bg{
+   object-fit: cover;
+   width: 46vw
+}
+
+
+.collection__title{
+	display: flex;
+	justify-content: center;
+}
+.collection__title p{
+font-family: Playfair Display;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0em;
+margin-left: 34px
+}
+
+.collection__content hr{
+	background-color: white;
+	height: 1px;
+	margin-top: 80px;
+	width: 120px;
+	margin-left: -220px;
+    
+}
+
+.ct{
+	display: flex;
+	justify-content: center;
+	margin-top: 39px
+}
+
+.collection__text{
+	font-family: PT Sans;
+font-size: 14px calc(14px + 4 * (100vw / 1142));;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+min-height: 173px;
+max-width: 471px;
+border-radius: nullpx;
+margin-left: 100px
+
+}
+
+.collection__link{
+	display: flex;
+	justify-content: center;
+	border: 1px solid #FFFFFF;
+	margin-top: 60px;
+	max-width:311px;
+	margin-left: 170px
+}
+
+.collection__link a{
+	padding: 12px 28px
+}
+
+.new-watchs__body{
+    padding-top: 120px
+}
+.new-watchs__title{
+	display: flex;
+	justify-content: center;
+	margin-left:-15%;
+}
+.new-watchs__title hr{
+	background-color: white;
+	height: 1px;
+	margin-top: 80px;
+	width: 120px;
+	margin-left: -270px;
+}
+
+.new-watchs__title p{
+   font-family: Playfair Display;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0em;
+}
+
+.new-watchs__products .products__item:not(:last-child){
+	margin-right: 1.2vw
+}
+
+
+
+.new-watchs__products .products__item{
+	width: 250px;
+	margin-top: 30px
+}
+
+.brands{
+	background-color: #0F0F0F;
+	margin-top:40px;
+}
+
+.brands__body{
+	padding-top: 73px;
+
+	padding-bottom: 80px
+}
+
+.brands__list{
+	margin-top: 40px;
+	display: flex;
+	flex-wrap:wrap; 
+}
+
+.brands__list img:not(:last-child){
+	margin-right: 1.5vw
+}
+
+.brands hr{
+	margin-left: -200px
+}
+
+.footer{
+	background-image: url(footer-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.footer__wrapper{
+	}
+.footer__body{
+	padding-top: 80px;
+	padding-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer__about{
+	max-width: 350px
+}
+.footer__about__title{
+	font-family: Playfair Display;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;	
+}
+.footer__about__text{
+	margin-top: 40px;
+	font-family: PT Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.footer__category{
+	margin-left: 30px
+}
+.footer__category__list{
+	max-width: 350px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.fcl__item{
+	max-width: 164px;
+	height: 41px;
+	background: #0F0F0F;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.fcl__item:not(.fcl__last){
+   margin-right: 30px;
+}
+.fcl__item a{
+	padding: 10px 20px;
+	font-size: 12px
+}
+
+.footer__contacts{
+	width: 380px
+}
+
+.footer__contacts__input{
+	width: 210px;
+	height: 42px;
+	text-align: left;
+	opacity: 0.3;
+	margin-top: 37px;
+}
+
+.ff__link{
+ background: #0F0F0F;
+ width: 140px;
+ padding: 10px 20px;
+ height: 41px
+
+
+}
+
+@media(min-width: 2200px){
+    .collection__bg img{
+    	width: 100%
+    }
+}
+
+
+@media(max-width: 1435px){
+    .collection__wrapper{
+    	display: block;
+    }
+
+    .collection__bg{
+    	width: 100vw
+    }
+    .collection__bg img{
+    	width: 100%
+    }
+
+    .collection__content{
+    	margin-left: 0
+    }
+
+    .collection__text{
+    	margin-left: 0px
+    }
+
+    .collection__link{
+    	margin-left: 70px
+    }
+
+   .cl{
+   	display: flex;
+      justify-content: center;
+   }
+}
+
+
+@media(max-width: 1184px){
+ .main-block__wrapper{
+		display: block;
+	}
+
+	.main-block__season{
+		width: 100%
+	}
+
+	.main-block__collection__bg{
+		position: relative;
+		top:0;
+		left:0;
+		margin-top: 0;
+		height: 65vh;
+		width: 100vw
+	}
+
+}
+
+
+@media(max-width: 767px){
+    .footer__contacts,.footer__category{
+    	margin-top: 55px
+    }
+}
+
+@media(max-width: 580px){
+  .products{
+  	justify-content: center;
+  }
+
+  .collection__bg img{
+  	max-width: 580px;
+  	width: 100%
+  }
+
+  .new-watchs__title {
+    justify-content: flex-start;
+  }
+
+
+  .new-watchs__title p{
+  	font-size: 24px;
+  	margin-left:70px;
+  }
+  .new-watchs__title hr{
+  	margin-left: -240px
+  }
+  .brands__title hr{
+  	margin-left: -190px
+  }
+}
+
+
+
+@media(max-width: 370px){
+	.top-block__title__body{
+		padding: 114px 23px
+	}
+
+	.collection__title{
+		display: block;
+	}
+
+	.collection__title hr{
+		margin-top: 20px;
+		margin-left: 100px;
+		
+
+	}
+
+
+}
